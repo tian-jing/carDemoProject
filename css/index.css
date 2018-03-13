@@ -1,0 +1,182 @@
+body,
+ul,
+li,
+dl,
+dt,
+dd,
+p,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+img,
+table,
+fieldset,
+legend {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+img,
+fieldset {
+    border: 0;
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 100;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+body {
+    font-family: "microsoft yahei";
+}
+
+input,
+a {
+    outline: none;
+}
+
+html,
+body,
+.wrapper,
+.home,
+.me,
+.find,
+.forum,
+.choose,
+.login,
+.register {
+    width: 100%;
+    height: 100%;
+}
+
+.home,
+.choose,
+.find,
+.me,
+.forum,
+.login,
+.register {
+    display: flex;
+    flex-direction: column;
+}
+
+.home .header,
+.choose .header,
+.find .header,
+.me .header,
+.forum .header,
+.login .header,
+.register .header {
+    width: 100%;
+    height: 1.14rem;
+    flex-shrink: 0;
+    border-bottom: solid 1px #e9e9e9;
+}
+
+.home .container,
+.choose .container,
+.find .container,
+.me .container,
+.forum .container,
+.login .container,
+.register .container {
+    width: 100%;
+    flex-grow: 1;
+    overflow-y:auto; 
+}
+
+.home .footer,
+.choose .footer,
+.find .footer,
+.me .footer,
+.forum .footer,
+.login .footer,
+.register .footer {
+    width: 100%;
+    height: 1.14rem;
+    flex-shrink: 0;
+    border-top: solid 1px #e9e9e9;
+    background: #f8f8f8;
+}
+
+.home .footer > a,
+.choose .footer > a,
+.find .footer > a,
+.me .footer > a,
+.forum .footer > a,
+.login .footer > a,
+.register .footer > a {
+    width: 20%;
+    height: 100%;
+    font-size: .24rem;
+    color: #6b6b6b;
+    float: left;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .footer > a .foot-i,
+.choose .footer > a .foot-i,
+.find .footer > a .foot-i,
+.me .footer > a .foot-i,
+.forum .footer > a .foot-i,
+.login .footer > a .foot-i,
+.register .footer > a .foot-i {
+    font-size: .52rem;
+    margin-bottom: -.1rem;
+}
+
+.home .footer .active,
+.choose .footer .active,
+.find .footer .active,
+.me .footer .active,
+.forum .footer .active,
+.login .footer .active,
+.register .footer .active {
+    color: #4183ff;
+}
+
+.home .footer .active .foot-i,
+.choose .footer .active .foot-i,
+.find .footer .active .foot-i,
+.me .footer .active .foot-i,
+.forum .footer .active .foot-i,
+.login .footer .active .foot-i,
+.register .footer .active .foot-i {
+    color: #4183ff;
+}
+
+
+/*# sourceMappingURL=index.css.map */

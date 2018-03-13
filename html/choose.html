@@ -1,0 +1,127 @@
+<div class="choose" ng-controller="chooseCtr" chrepeat-finish>
+    <header class="header">
+        <div class="ch_tab">
+            <span class="ch_active" ng-click="click1()">新车</span><span ng-click="click1()">二手车</span>
+            <i class="block"></i>
+        </div>
+        <div class="ch_search"><i class="iconfont">&#xe686;</i></div>
+    </header>
+    <div class="container">
+         <div class="ch_litnav ch_litnav1">
+            <p>
+                <span href="javascript:void(0)">选</span>
+                <span href="javascript:void(0)">热</span>
+                <span href="javascript:void(0)">主</span>
+                <a href="javascript:void(0)">A</a>
+                <a href="javascript:void(0)">B</a>
+                <a href="javascript:void(0)">C</a>
+                <a href="javascript:void(0)">D</a>
+                <a href="javascript:void(0)">F</a>
+                <a href="javascript:void(0)">G</a>
+                <a href="javascript:void(0)">H</a>
+                <a href="javascript:void(0)">G</a>
+                <a href="javascript:void(0)">K</a>
+                <a href="javascript:void(0)">L</a>
+                <a href="javascript:void(0)">M</a>
+                <a href="javascript:void(0)">N</a>
+                <a href="javascript:void(0)">O</a>
+                <a href="javascript:void(0)">P</a>
+                <a href="javascript:void(0)">Q</a>
+                <a href="javascript:void(0)">R</a>
+                <a href="javascript:void(0)">S</a>
+                <a href="javascript:void(0)">T</a>
+                <a href="javascript:void(0)">W</a>
+                <a href="javascript:void(0)">X</a>
+                <a href="javascript:void(0)">Y</a>
+                <a href="javascript:void(0)">Z</a>
+            </p>
+        </div>
+       <div class="swiper-container6">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide test1">
+                <!-- 新车 -->
+                    <div class="ch_nav swiper-container3" ng-click="click()">
+                        <ul class="ch_navlist swiper-wrapper">
+                            <li  class="swiper-slide">
+                                <i class="iconfont">&#xe620;</i>
+                                <span>个性推荐</span>
+                            </li>
+                            <li class="swiper-slide">
+                                <i class="iconfont">&#xe612;</i>
+                                <span>热销排行</span>
+                            </li>
+                            <li class="swiper-slide">
+                                <i class="iconfont">&#xe725;</i>
+                                <span>降价优惠</span>
+                            </li>
+                            <li class="swiper-slide">
+                                <i class="iconfont">&#xe600;</i>
+                                <span>我的收藏</span>
+                            </li>
+                            <li class="swiper-slide">
+                                <i class="iconfont">&#xe605;</i>
+                                <span>浏览历史</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="ch_head">
+                        <div class="ch_condition">
+                            <div class="ch_title">条件选车</div>
+                            <div class="ch_detail">
+                                <span>7875个车型</span>
+                                <i class="iconfont">&#xe708;</i>
+                            </div>
+                        </div>
+                        <div class="ch_hot">
+                            <h2 class="ch_title">热门品牌</h2>
+                            <ul class="ch_hotlist">
+                                <li class="ch_hotcar"ng-repeat="x in hot">
+                                    <i class="ch_carpic"><img ng-src="{{x.img}}"/></i>
+                                    <span class="ch_hotname">{{x.name}}</span>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="ch_main">
+                             <h2 class="ch_title">主打产品</h2>
+                             <ul class="ch_mainlist">
+                                 <li class="ch_maincar" ng-repeat="y in main">
+                                     <i class="ch_mainpic"><img ng-src="{{y.img}}"/></i>
+                                    <span class="ch_mainname">{{y.name}}</span>
+                                 </li>
+                             </ul>
+                        </div>
+                        <div class="ch_his">
+                            <h2>历史记录</h2>
+                            <dl>
+                                <dt><img src="img/aodi.jpg"/></dt>
+                                <dd>奥迪</dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="ch_byword  test">
+                        <div class="ch_word" >
+                            <ul class="ch_list" ng-repeat="z in byword" ng-click="click()">
+                             <h3 class="ch_title">{{z.datal}}</h3>
+                                <li class="ch_bw" name="ss" ng-repeat="q in z.detail track by $index">
+                                    <i class="ch_bwpic"><img ng-src="{{q.img}}" alt=""></i>
+                                    <span class="ch_bwname">{{q.name}}</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide test2">
+                    二手车
+                </div>
+            </div>
+       </div>
+    </div>
+    <footer class="footer">
+        <a href="#/ "  on-touch="footTab() "><i class="iconfont foot-i ">&#xe60e;</i><span>推荐</span></a>
+        <a href="#/forum " on-touch="footTab() "><i class="iconfont foot-i ">&#xe604;</i><span>论坛</span></a>
+        <a href="#/choose " on-touch="footTab()" class="active"><i class="iconfont foot-i ">&#xe833;</i><span>选车</span></a>
+        <a href="#/find " on-touch="footTab() "><i class="iconfont foot-i ">&#xe60d;</i><span>发现</span></a>
+        <a href="#/me " on-touch="footTab()"><i class="iconfont foot-i ">&#xe66d;</i><span>我</span></a>
+    </footer>
+</div>

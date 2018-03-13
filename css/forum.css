@@ -1,0 +1,168 @@
+html,
+body,
+canvas,
+ul,
+li,
+p, a {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.forum {
+  width: 10.8rem;
+  height: 100%;
+}
+.forum .header span {
+  display: block;
+  float: left;
+  width: .95rem;
+  height: 1.08rem;
+  line-height: 1.08rem;
+  text-align: center;
+  font-size: .38rem;
+  color: #969696;
+}
+.forum .header span:nth-child(1) {
+  margin-left: 4.0rem;
+}
+.forum .header span:nth-child(2) {
+  margin-left: .85rem;
+}
+.forum .header span:hover {
+  color: #000;
+  border-bottom: 2px solid #000;
+}
+.forum .container .fo_wiperBox {
+  width: 10.8rem;
+  height: 100%;
+}
+.forum .container .fo_wiperBox .fo_wiperSliders {
+  width: 21.6rem;
+  height: 100%;
+}
+.forum .container .fo_wiperBox .fo_wiperSliders .fo_wiperSlider {
+  width: 10.8rem;
+  height: 100%;
+}
+.forum .container .fo_wiperBox .fo_wiperSliders .fo_wiperSlider .fo-banner {
+  width: 100%;
+  height: 2.56rem;
+  background: #f0eff5;
+  border-top: 1px solid #e9e9e9;
+  border-bottom: 1px solid #e9e9e9;
+}
+.forum .container .fo_wiperBox .fo_wiperSliders .fo_wiperSlider .fo-banner a {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.forum .container .fo_wiperBox .fo_wiperSliders .fo_wiperSlider .fo-banner a img {
+  display: block;
+  width: 10.28rem;
+  height: 2.08rem;
+  margin-top: 0.24rem;
+  margin-left: 0.26rem;
+}
+.forum .container .fo_wiperBox .fo_wiperSliders .fo_wiperSlider .fo-chose {
+  width: 100%;
+  height: 3.74rem;
+  background: #ffffff;
+}
+.forum .container .fo_wiperBox .fo_wiperSliders .fo_wiperSlider .fo-chose h1 {
+  width: 100%;
+  height: 1.28rem;
+  line-height: 1.28rem;
+  font-size: 0.38rem;
+  color: #333333;
+  margin-left: 0.38rem;
+}
+.forum .container .fo_wiperBox .fo_wiperSliders .fo_wiperSlider .fo-chose h1 span {
+  color: #999999;
+  font-size: .30rem;
+  margin-left: 7.30rem;
+}
+.forum .container .fo_wiperBox .fo_wiperSliders .fo_wiperSlider .fo-chose ul {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.forum .container .fo_wiperBox .fo_wiperSliders .fo_wiperSlider .fo-chose ul li {
+  padding: 0.1rem;
+}
+.forum .container .fo_wiperBox .fo_wiperSliders .fo_wiperSlider .fo-chose ul li a {
+  display: block;
+  padding: .12rem .16rem;
+  color: #3a7eff;
+  font-size: .30rem;
+  border: 1px solid #3a7eff;
+  border-radius: 5px;
+}
+.forum .container .fo_wiperBox .fo_wiperSliders .fo_wiperSlider > p {
+  width: 100%;
+  height: .26rem;
+  background: #f0eff5;
+}
+.forum .container .fo_wiperBox .fo_wiperSliders .fo_wiperSlider .fo-hot {
+  width: 9.68;
+  height: 1.44rem;
+  line-height: 1.44rem;
+  font-size: .42rem;
+  padding-left: 1.12rem;
+}
+.forum .container .fo_wiperBox .fo_wiperSliders .fo_wiperSlider .fo-hot i {
+  margin-left: 6.4rem;
+}
+.forum .container .fo_wiperBox .fo_wiperSliders .fo_wiperSlider .fo-car {
+  width: 100%;
+  height: 100%;
+}
+.forum .container .fo_wiperBox .fo_wiperSliders .fo_wiperSlider .fo-car ul li {
+  width: 100%;
+  height: 2.86rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+.forum .container .fo_wiperBox .fo_wiperSliders .fo_wiperSlider .fo-car ul li > p {
+  width: 6.46rem;
+  line-height: .62rem;
+  margin-top: .26rem;
+  height: auto;
+  font-size: .38rem;
+  color: #383838;
+  float: left;
+  margin-left: .42rem;
+}
+.forum .container .fo_wiperBox .fo_wiperSliders .fo_wiperSlider .fo-car ul li img {
+  width: 3.18rem;
+  height: 1.80rem;
+  margin-top: .24rem;
+  float: left;
+  margin-left: .38rem;
+}
+.forum .container .fo_wiperBox .fo_wiperSliders .fo_wiperSlider .fo-car ul li span {
+  width: 10.42rem;
+  height: .60rem;
+  line-height: .60rem;
+  font-size: .3rem;
+  color: #a6a6a6;
+  padding-left: .4rem;
+  float: left;
+}
+.forum .container .fo_wiperBox .fo_wiperSliders .fo_wiperSlider .fo-car ul li span > i {
+  float: right;
+  padding-right: 0.38rem;
+  font-style: normal;
+}
+
+/*# sourceMappingURL=forum.css.map */

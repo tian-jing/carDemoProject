@@ -1,0 +1,48 @@
+<div class="register" ng-controller="registerCtr" register-Repeat-finish>
+    <header class="header">
+        <h4><a class="iconfont re-head-i" href="#/login">&#xe60a;</a>注 册</h4>
+    </header>
+    <div class="container">
+    	<ul>
+					<li id="phone">
+						<span>手机号码</span>
+						<input type="text" id="txt" value="" placeholder="请输常用的手机号   "/>
+						<div id="wrong"><span></span></div>
+						<strong></strong>
+					</li>
+					<li id="psword">
+						<span class="mima">设置密码</span>
+						<input type="password" id="psw" placeholder="请输入6~12位号码字符" value=""/>
+						<div id="wrong"><span></span></div>
+						<strong></strong>
+					</li>
+					<li id="re">
+						<span>确认密码</span>
+						<input type="password" id="repsw" placeholder="请再次输入密码" value="" />
+						<div id="wrong"><span></span></div>
+						<strong></strong>
+					</li>
+					<li id="yzm">
+						<span class="mima">验证码</span>
+						<input type="txt" id="yyy" placeholder="区分大小写" value="" style="width: 2.8rem;"/>
+						<img src="img/xin_03.png"/>
+						<em></em>
+						<div id="wrong"><span></span></div>
+						<strong></strong>
+					</li>
+					<li id="phoneY">
+						<span>手机验证</span>
+						<input type="text" id="sjyzm" placeholder="输入手机验证" />
+						<a href="javascript:void(0)" class="send">发送验证码</a>
+						<div id="wrong"><span></span></div>
+						<strong></strong>
+					</li>
+				</ul>
+				<div id="deal">
+					<input type="checkbox" name="like" id="" value="" checked="checked"/>
+					<span>我已认真阅读<a href="#">《用户协议》</a></span>
+				</div>
+				<a href="javascript:;" ng-click='location()' id="sub">注 册</a>
+				<a href="#/login" id="login">已注册,立即登录</a>
+    </div>
+</div>

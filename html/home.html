@@ -1,0 +1,178 @@
+<div class="home" ng-controller="homerCtr">
+	<header class="header h-header">
+		<span>限时抢</span>
+		<i class="iconfont">&#xe686;</i>
+	</header>
+	<div class="container wrapper">
+		<nav class="swiper-container1 ho-nav">
+			<ul class="swiper-wrapper ho-ul">
+				<li class="swiper-slide"><span class="ho-active">推荐</span></li>
+				<li class="swiper-slide"><span>原创</span></li>
+				<li class="swiper-slide"><span>说客</span></li>
+				<li class="swiper-slide"><span>视频</span></li>
+				<li class="swiper-slide"><span>快报</span></li>
+				<li class="swiper-slide"><span>游记</span></li>
+				<li class="swiper-slide"><span>行情</span></li>
+				<li class="swiper-slide"><span>新闻</span></li>
+				<li class="swiper-slide"><span>测评</span></li>
+				<li class="swiper-slide"><span>导购</span></li>
+				<li class="swiper-slide"><span>用车</span></li>
+				<li class="swiper-slide"><span>技术</span></li>
+				<li class="swiper-slide"><span>文化</span></li>
+				<li class="swiper-slide"><span>改装</span></li>
+			</ul>
+			<i class="iconfont">&#xe610;</i>
+		</nav>
+		<section class="swiper-container12 ho-slide main" id="main">
+			<div class="swiper-wrapper ho-wrapper" id="scroller">
+			<!--  推荐页  -->
+				<div class="ho-main swiper-slide">
+					<div class="ho-box  swiper-container123">
+						<ul class="swiper-wrapper">
+							<li class="swiper-slide" ng-repeat="x in turnImg"><img ng-src="{{x}}" alt=""></li>
+						</ul>
+						<div class="swiper-pagination"></div>
+					</div>
+					<div class="ho-pic">
+						<div class="ho-ad">
+							<p>未来派轿跑SUV CX-4</p>
+							<img src="img/tj_10.png" alt="">
+							<i class="iconfont ho-close">&#xe647;</i>
+							<span>广告</span>
+						</div>
+						<div class="ho-img"><img src="img/tj_123.png" alt=""></div>
+					</div>
+					<div class="ho-fq">
+						<p>最后疯抢</p>
+						<div class="swiper-container6">
+							<ul class="swiper-wrapper">
+								<li class="swiper-slide"  ng-repeat="x in fqiang"> 
+									<dl><img ng-src="{{x.src}}" alt=""></dl>
+									<dt>{{x.name}}</dt>	
+									<dd>&yen;{{x.price}}</dd>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="ho-list">
+						<ul>
+							<li ng-repeat="x in list1">
+								<dl>
+									<dt>{{x.article}}</dt>
+									<dd>{{x.comment}}</dd>
+								</dl>
+								<div>
+									<img ng-src="{{x.img}}" alt="">
+									<time>{{x.date}}</time>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="ho-sport">
+						<p>豪华运动座驾新标签</p>
+						<ul>
+							<li ng-repeat="x in imgSrc"> 
+								<img ng-src="{{x}}" alt="">
+							</li>
+						</ul>
+					</div>
+					<div class="ho-list1" >
+						<ul class="ho-listLoad" id="thelist">
+							<li ng-repeat="x in list3">
+								<dl>
+									<dt>{{x.article}}</dt>
+									<dd>{{x.comment}}</dd>
+								</dl>
+								<div>
+									<img ng-src="{{x.img}}" alt="">
+									<time>{{x.time}}</time>
+								</div>
+							</li>
+						</ul>
+					</div>					
+				</div>
+			<!--  原创页  -->
+				<div class="ho-main swiper-slide">
+					<div class="ho-yc-time"></div>
+					<div class="ho-list">
+						<ul>
+							<li>
+								<dl>
+									<dt style="font-size: 0.45rem">定位电动MPV ICONIQ</br>Seven 5月1日首发</dt>
+									<dd>666条评论</dd>
+								</dl>
+								<div>
+									<img src="img/yc1.jpg" style="height:2.3rem;" >
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="ho-sport">
+						<p>577亿像素 宾利拍摄史上最清晰宣传海报</p>
+						<ul>
+							<li ng-repeat="pic in hbImg"> 
+								<img ng-src="{{pic}}" alt="">
+							</li>
+						</ul>
+					</div>
+					<div class="ho-list">
+						<ul>
+							<li ng-repeat="x in list1">
+								<dl>
+									<dt>{{x.article}}</dt>
+									<dd>{{x.comment}}评论</dd>
+								</dl>
+								<div>
+									<img ng-src="{{x.img}}" alt="">
+									<time>{{x.date}}</time>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="ho-sport">
+						<p>豪华运动座驾新标签</p>
+						<ul>
+							<li ng-repeat="x in imgSrc"> 
+								<img ng-src="{{x}}" alt="">
+							</li>
+						</ul>
+					</div>
+					<div class="ho-list1" >
+						<ul class="ho-listLoad" id="thelist">
+							<li ng-repeat="x in list3">
+								<dl>
+									<dt>{{x.article}}</dt>
+									<dd>{{x.comment}}</dd>
+								</dl>
+								<div>
+									<img ng-src="{{x.img}}" alt="">
+									<time>{{x.time}}</time>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			<!--  说客页  -->
+				<div class="swiper-slide blank">说客</div>
+				<div class="swiper-slide blank">视频</div>
+				<div class="swiper-slide blank">快报</div>
+				<div class="swiper-slide blank">游记</div>
+				<div class="swiper-slide blank">行情</div>
+				<div class="swiper-slide blank">新闻</div>
+				<div class="swiper-slide blank">测评</div>
+				<div class="swiper-slide blank">导购</div>
+				<div class="swiper-slide blank">用车</div>
+				<div class="swiper-slide blank">技术</div>
+				<div class="swiper-slide blank">文化</div>
+				<div class="swiper-slide blank">改装</div>
+			</div>
+		</section>	
+	</div>
+	<footer class="footer">
+		<a href="#/" class="active" on-touch="footTab()"><i class="iconfont foot-i">&#xe60e;</i><span>推荐</span></a>
+		<a href="#/forum" on-touch="footTab()"><i class="iconfont foot-i">&#xe604;</i><span>论坛</span></a>
+		<a href="#/choose" on-touch="footTab()"><i class="iconfont foot-i">&#xe833;</i><span>选车</span></a>
+		<a href="#/find" on-touch="footTab()"><i class="iconfont foot-i">&#xe60d;</i><span>发现</span></a>
+		<a href="#/me" on-touch="footTab()"><i class="iconfont foot-i">&#xe66d;</i><span>我</span></a>
+	</footer>
+</div>

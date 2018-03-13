@@ -1,0 +1,71 @@
+.me .container {
+  background: #f0eff5;
+  overflow-y: auto; }
+  .me .container .con-profile {
+    width: 100%;
+    height: 7.6rem;
+    position: relative;
+    background: white; }
+    .me .container .con-profile .con-pro-i {
+      position: absolute;
+      right: .48rem;
+      top: .32rem; }
+    .me .container .con-profile .me-profile {
+      height: 5.42rem;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .me .container .con-profile .me-profile > dt {
+        margin-bottom: .44rem; }
+        .me .container .con-profile .me-profile > dt img {
+          width: 1.96rem;
+          height: 1.96rem;
+          display: block; }
+      .me .container .con-profile .me-profile > dd > h4 {
+        text-align: center;
+        font-size: .36rem;
+        color: #2b2b2b; }
+    .me .container .con-profile .me-list {
+      height: 2.18rem;
+      width: 100%; }
+      .me .container .con-profile .me-list > li {
+        width: 33.333%;
+        height: 100%;
+        float: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        .me .container .con-profile .me-list > li .me-list-i {
+          font-size: .55rem;
+          margin-bottom: .2rem; }
+        .me .container .con-profile .me-list > li > span {
+          font-size: .28rem; }
+  .me .container .me-choose .me-ch-list {
+    overflow: hidden; }
+    .me .container .me-choose .me-ch-list li {
+      line-height: 1.3rem;
+      background: white; }
+      .me .container .me-choose .me-ch-list li > span {
+        font-size: .26rem;
+        color: #202020; }
+      .me .container .me-choose .me-ch-list li .me-ch-list-i {
+        margin-right: .4rem;
+        color: #555555; }
+      .me .container .me-choose .me-ch-list li .ch-i2 {
+        float: right;
+        margin-right: .44rem;
+        color: #b4b4b4; }
+    .me .container .me-choose .me-ch-list li:nth-of-type(1) .me-ch-list-i {
+      color: #ffcc00; }
+    .me .container .me-choose .me-ch-list li:nth-of-type(2) .me-ch-list-i {
+      color: #f85858; }
+    .me .container .me-choose .me-ch-list > li {
+      padding-left: .4rem;
+      margin-top: .26rem; }
+      .me .container .me-choose .me-ch-list > li > ul > li:nth-of-type(1) {
+        border-bottom: solid 1px #e3e3e3; }
+
+/*# sourceMappingURL=me.css.map */

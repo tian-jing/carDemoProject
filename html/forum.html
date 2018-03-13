@@ -1,0 +1,53 @@
+<div class="forum">
+            <header class="header">
+            	<span>精选</span>
+            	<span>论坛</span>
+            </header>
+            <div class="container" ng-controller="forumCtr">
+            	 <div class="swiper-container fo_wiperBox">
+			        <div class="swiper-wrapper fo_wiperSliders">
+			            <div class="swiper-slide fo_wiperSlider">
+			            	<div class="fo-banner">
+				            	<a href="#"><img src="img/fo-01.png"></a>
+				            </div>
+			                <div class="fo-chose">
+				            		<h1>精选推荐<span>全部<i class="iconfont">&#xe708;</i></span></h1>
+				            		<ul>
+				            			<li><a href="#">媳妇当车模</a></li>
+				            			<li><a href="#">美人"记"</a></li>
+				            			<li><a href="#">高端阵地</a></li>
+				            			<li><a href="#">摩友天地</a></li>
+				            			<li><a href="#">精挑细选</a></li>
+				            			<li><a href="#">妹子选车</a></li>
+				            			<li><a href="#">论坛红人馆</a></li>
+				            			<li><a href="#">改装有理</a></li>
+				            		</ul>
+				            </div>
+				            <p></p>
+				            <div class="fo-hot">24小时热贴<i class="iconfont">&#xe708;</i></div>
+				            <p></p>
+				            <div class="fo-car">
+				            	<ul>
+				            		<li ng-repeat="x in fodata">
+				            			<p class="fo-des">{{x.des}}</p>
+				            			<img ng-src="{{x.img}}">
+				            			<span class="fo-show">{{x.show}}<i>{{x.showI}}</i></span>
+				            		</li>
+				            	</ul>
+				            </div>
+			      		</div>
+			            <div class="swiper-slide fo_wiperSlider">
+			               	<h1>论坛 </h1>
+			            </div>
+			        </div>
+			    </div>
+			</div>
+            	
+            <footer class="footer">
+                  <a href="#/"  on-touch="footTab()"><i class="iconfont foot-i">&#xe60e;</i><span>推荐</span></a>
+                  <a href="#/forum" class="active" on-touch="footTab()"><i class="iconfont foot-i">&#xe604;</i><span>论坛</span></a>
+                  <a href="#/choose" on-touch="footTab()"><i class="iconfont foot-i">&#xe833;</i><span>选车</span></a>
+                  <a href="#/find" on-touch="footTab()"><i class="iconfont foot-i">&#xe60d;</i><span>发现</span></a>
+                  <a href="#/me" on-touch="footTab()"><i class="iconfont foot-i">&#xe66d;</i><span>我</span></a>
+            </footer>
+</div>

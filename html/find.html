@@ -1,0 +1,194 @@
+<div class="find">
+      <header class="header">
+            <span>发现</span>
+            <em class="iconfont">&#xe686;</em>
+      </header>
+      <div class="container" ng-controller="findCtr" id="fi_Main">
+            <div class="fi_ScrollBox" id="fi_container_scroll">
+                  <div class="swiper-container fi_lunbo_box">
+                        <div class="swiper-wrapper fi_lunbo_slides">
+                              <div class="swiper-slide fi_lunbo_slide" ng-repeat="x in fiLunImgs" repeat-finish> <img ng-src="{{x.url}}" alt="ddd" /> </div>
+                        </div>
+                              <!-- Add Pagination -->
+                        <div class="swiper-pagination fiSwiper-pagination"></div>
+                  </div>
+                  <div class="fi_nav">
+                        <ul>
+                              <li>
+                                    <div><img src="img/find-pic20.png" alt=""></div>
+                                    <span>汽车音频</span>
+                              </li>
+                              <li>
+                                    <div><img src="img/find-pic21.png" alt=""></div>
+                                    <span>车商城</span>
+                              </li>
+                              <li>
+                                    <div><img src="img/find-pic22.png" alt=""></div>
+                                    <span>分期购车</span>
+                              </li>
+                              <li>
+                                    <div><img src="img/find-pic23.png" alt=""></div>
+                                    <span>养车之家</span>
+                              </li>
+                              <li>
+                                    <div><img src="img/find-pic24.png" alt=""></div>
+                                    <span>找二手车</span>
+                              </li>
+                              <li>
+                                    <div><img src="img/find-pic25.png" alt=""></div>
+                                    <span>违章查询</span>
+                              </li>
+                              <li>
+                                    <div><img src="img/find-pic26.png" alt=""></div>
+                                    <span>购车计算</span>
+                              </li>
+                              <li>
+                                    <div><img src="img/find-pic27.png" alt=""></div>
+                                    <span>团购活动</span>
+                              </li>
+                              <li>
+                                    <div><img src="img/find-pic28.png" alt=""></div>
+                                    <span>购车节</span>
+                              </li>
+                              <li>
+                                    <div><img src="img/find-pic29.png" alt=""></div>
+                                    <span>全部</span>
+                              </li>
+                        </ul>
+                  </div> 
+                        
+                  <div class="fi_doubleEPurchase">
+                        <p>双十一抢购</p>
+                        <div class="fi_purchaseBox" id="fi_purchaseBox">
+                              <ul class="fi_purchaseBar">
+                                    <li ng-repeat="x in doubleEPurchase">
+                                          <img ng-src="{{x.url}}" alt="">
+                                          <span>{{x.name}}</span>
+                                          <span><i>&yen;</i><em>{{x.price}}</em></span>
+                                    </li>
+                              </ul>
+                        </div>
+                  </div>
+                  <div class="fi_ad fi_ad1"></div>
+                  <div class="fi_timePurchase">
+                        <div class="fi_setTimeout">
+                              <p>限时抢购</p>
+                              <h6>
+                                    <i id="fi_timeD">02</i>天
+                                    <i id="fi_timeH">11</i>:
+                                    <i id="fi_timeM">17</i>:
+                                    <i id="fi_timeS">18</i>
+                              </h6>
+                        </div>
+                        <div class="fi_PurchaseGoods" id="fi_PurchaseGoods">
+                              <ul>
+                                    <li ng-repeat="x in PurchaseGoods"><img ng-src="{{x.url}}" alt=""></li>
+                              </ul>
+                        </div>
+                  </div>
+                  <div class="fi_serviceArea">
+                        <p>服务专区</p>
+                        <ul>
+                              <li><img src="img/find-pic12.png" alt=""></li>
+                              <li><img src="img/find-pic13.png" alt=""></li>
+                              <li><img src="img/find-pic14.png" alt=""></li>
+                              <li><img src="img/find-pic15.png" alt=""></li>
+                              <li><img src="img/find-pic12.png" alt=""></li>
+                              <li><img src="img/find-pic13.png" alt=""></li>
+                        </ul>
+                  </div>
+                  <div class="fi_ad fi_ad2"></div>
+                  <div class="fi_Shop fi_deserveShop">
+                        <p>11·11超值购</p>
+                        <div class="fi_deserveShopList">
+                              <ul>
+                                    <li>
+                                          <img src="img/find-pic0.jpg" alt="">
+                                          <h3>一汽大众 全新宝来</h3>
+                                          <h4>适用车型:230 TSI(1.4T)自动舒适.230 TSI(1.4T)</h4>
+                                          <h5><span>99元</span>&nbsp;<del>1000元</del></h5>
+                                    </li>
+                                    <li>
+                                          <img src="img/find-pic0.jpg" alt="">
+                                          <h3>上汽通用五菱  宝骏  560</h3>
+                                          <h4>11.11购车节活动车型在购车节期间(11月1日...</h4>
+                                          <h5><span>99元</span>&nbsp;<del>1000元</del></h5>
+                                    </li>
+                                    <li>
+                                          <img src="img/find-pic0.jpg" alt="">
+                                          <h3>一汽大众 全新宝来</h3>
+                                          <h4>适用车型:230 TSI(1.4T)自动舒适.230 TSI(1.4T)</h4>
+                                          <h5><span>99元</span>&nbsp;<del>1000元</del></h5>
+                                    </li>
+                                    <li>
+                                          <img src="img/find-pic0.jpg" alt="">
+                                          <h3>上汽通用五菱  宝骏  560</h3>
+                                          <h4>11.11购车节活动车型在购车节期间(11月1日...</h4>
+                                          <h5><span>99元</span>&nbsp;<del>1000元</del></h5>
+                                    </li>
+                              </ul>
+                        </div>
+                  </div>
+                  <div class="fi_Shop fi_specialShop">
+                        <p>11·11特惠购</p>
+                        <div class="fi_deserveShopList">
+                              <ul>
+                                    <li>
+                                          <img src="img/find-pic0.jpg" alt="">
+                                          <h3>一汽大众 全新宝来</h3>
+                                          <h4>适用车型:230 TSI(1.4T)自动舒适.230 TSI(1.4T)</h4>
+                                          <h5><span>99元</span>&nbsp;<del>1000元</del></h5>
+                                    </li>
+                                    <li>
+                                          <img src="img/find-pic0.jpg" alt="">
+                                          <h3>上汽通用五菱  宝骏  560</h3>
+                                          <h4>11.11购车节活动车型在购车节期间(11月1日...</h4>
+                                          <h5><span>99元</span>&nbsp;<del>1000元</del></h5>
+                                    </li>
+                                    <li>
+                                          <img src="img/find-pic0.jpg" alt="">
+                                          <h3>一汽大众 全新宝来</h3>
+                                          <h4>适用车型:230 TSI(1.4T)自动舒适.230 TSI(1.4T)</h4>
+                                          <h5><span>99元</span>&nbsp;<del>1000元</del></h5>
+                                    </li>
+                                    <li>
+                                          <img src="img/find-pic0.jpg" alt="">
+                                          <h3>上汽通用五菱  宝骏  560</h3>
+                                          <h4>11.11购车节活动车型在购车节期间(11月1日...</h4>
+                                          <h5><span>99元</span>&nbsp;<del>1000元</del></h5>
+                                    </li>
+                              </ul>
+                        </div>
+                  </div>
+                  <div class="fi_goodsListBox">
+                        <p>商品列表</p>
+                        <div class="fi_goodsList">
+                              <ul id="fi_goodsList">
+                                    <li ng-repeat="x in goodsList" repeat-finish>
+                                          <span>
+                                                <img ng-src="{{x.url}}" alt="">
+                                          </span>
+                                          <div>
+                                                <h1>{{x.goodsH1}}</h1>
+                                                <h2>{{x.goodsH2}}</h2>
+                                                <h3>{{x.goodsH3}}</h3>
+                                                <h4><span>{{x.goodsSpan}}</span>&nbsp;<del>{{x.goodsDel}}</del></h4>
+                                          </div>
+                                    </li>
+                              </ul>
+                        </div>
+                  </div>
+            </div>
+            <div class="fi_top">
+                  <span class="iconfont">&#xe620;</span>
+                  <i>顶部</i>
+            </div>
+      </div>
+      <footer class="footer">
+            <a href="#/" on-touch="footTab()"><i class="iconfont foot-i">&#xe60e;</i><span>推荐</span></a>
+            <a href="#/forum" on-touch="footTab()"><i class="iconfont foot-i">&#xe604;</i><span>论坛</span></a>
+            <a href="#/choose" on-touch="footTab()"><i class="iconfont foot-i">&#xe833;</i><span>选车</span></a>
+            <a href="#/find"  class="active" on-touch="footTab()"><i class="iconfont foot-i">&#xe60d;</i><span>发现</span></a>
+            <a href="#/me" on-touch="footTab()"><i class="iconfont foot-i">&#xe66d;</i><span>我</span></a>
+      </footer>
+</div>

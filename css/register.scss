@@ -1,0 +1,172 @@
+.register{
+         
+         
+    .header {
+        line-height: 1.2rem;
+        border-bottom: solid 1px #e9e9e9;
+        &>h4 {
+            height: 1.5rem;
+            text-align: center;
+            font-size: .48rem;
+            color: #fff;
+            font-weight: bold;
+            position: relative;
+            background: #349FD4;
+            line-height: 1.5rem;
+            &>.re-head-i {
+                color: #fff;
+                left: .4rem;
+                font-size: .56rem;
+                position: absolute;
+                top: 0;
+            }
+        }
+    }
+    .container {
+        box-sizing: border-box;
+        padding: 1.24rem 0 0 0.9rem;
+        width: 100%;
+        /*background: url(../img/bg2.jpg) no-repeat;*/
+        background-size: 100% 100%;
+        ul{
+            width:9rem;
+            height: 8.6rem;
+            border: 0.02rem solid #bbbbbb;
+            border-radius:0.1rem;
+            li{ 
+              
+                height:1.7rem;
+                border-bottom: 0.01rem solid #d8d8d8;
+                position: relative;
+                span{
+                    display: inline-block;
+                    width:2rem;
+                    text-align: center;
+                    font-size:0.44rem ;
+                    color: #333;
+                }
+                input{
+                    width:5.5rem;
+                    height: 1rem;
+                   border: 0;
+                   outline: none;
+                }
+               #wrong{
+                    display: none;
+                    width:0.65rem;
+                    height: 0.65rem;
+                    text-align: center;
+                    background: #F53030;
+                    position: absolute;
+                    top: 0.53rem;
+                    right: 0.2rem;
+                    border-radius:50%;
+                    span{
+                        width:0.4rem;
+                        height: 0.1rem;
+                        background: #fff;
+                        position: absolute;
+                        top: 0.3rem;
+                        left:0.14rem;
+                    }
+               }
+               #yyy{
+                      width:4rem;
+                    }
+                    img{
+                        position: absolute;
+                        top:0.53rem;
+                        right: 1rem;
+                    }
+              #sjyzm{
+                      width:3rem;
+                    }
+            
+               
+                .send{
+                    width:2.5rem;
+                    height:1rem;
+                    position: absolute;
+                    top:0.42rem;
+                    right:1rem;
+                    font-size: 0.4rem;
+                    background: #ea4e1d;
+                    color: #fff;
+                    text-align: center;
+                    line-height: 1rem;
+                    border-radius: 0.1rem;
+                }
+                em{
+                    font-size: 0.6rem;
+                    position: absolute;
+                    top: 0.45rem;
+                    right: 2rem;
+                }
+                strong{
+                    display: none;
+                    width:0.8rem;
+                    height: 1rem;
+                    position: absolute;
+                    top: 0.6rem;
+                    right: 0.05rem;
+                    background: url(../img/yes.jpg) no-repeat;
+                }
+            }
+        }
+        #deal{
+            width:8.3rem;
+            height: 1rem;
+           input{ 
+                
+            }
+            span{
+                display: inline-block;
+                font-size: 0.26rem;
+                a{
+                    color: #39CE9F; 
+                }
+            }
+        }
+        #sub{
+            border-radius: .2rem;
+            display: block;
+            width:9rem;
+            height:1.25rem;
+            background: #8db4ff;;
+            color: #fff;
+            font-size: 0.5rem;
+            text-align: center;
+            line-height: 1.25rem;
+            margin-top: 0.8rem;
+        }
+        #login{
+            border-radius: .2rem;
+            display: block;
+            width:9rem;
+            height:1.25rem;
+            background: #aaa;
+            color: #fff;
+            font-size: 0.5rem;
+            text-align: center;
+            line-height: 1.25rem;
+            margin-top: 0.5rem;
+        }
+        }
+}
+
+.authCode,
+.setPage {
+    .container {
+        padding-top: 0;
+        form {
+            margin-top: 0;
+            .se-title {
+                height:auto;
+                padding:.4rem 0;
+                line-height: .5rem;
+                font-size: .36rem;
+                font-style: 100;
+            }
+        }
+    }
+}

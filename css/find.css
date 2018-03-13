@@ -1,0 +1,510 @@
+@-webkit-keyframes loading {
+  from {
+    -webkit-transform: rotate(0deg) translateZ(0); }
+  to {
+    -webkit-transform: rotate(360deg) translateZ(0); } }
+.find {
+  background: #F0EFF5; }
+  .find header {
+    position: relative;
+    background: #fff; }
+    .find header span {
+      display: block;
+      width: 100%;
+      height: 100%;
+      font-size: .4rem;
+      line-height: 1.14rem;
+      letter-spacing: 1px;
+      font-weight: 900;
+      text-align: center;
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 1; }
+    .find header em {
+      width: 1.46rem;
+      height: 1.14rem;
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: 5;
+      line-height: 1.14rem;
+      text-align: center; }
+  .find > div {
+    overflow-y: auto;
+    position: relative;
+    /*        #pullDown, #pullUp {
+                background:#fff;
+                height:1.14rem;
+                line-height:1.14rem;
+                padding:5px 10px;
+                box-sizing:border-box;
+                border-bottom:1px solid #ccc;
+                font-weight:bold;
+                font-size:.26rem;
+                color:#888;
+            }
+            #pullDown{
+                .pullDownIcon {
+                    display:block; 
+                    float:left;
+                    width:40px; 
+                    height:40px;
+                    background:url(pull-icon@2x.png) 0 0 no-repeat;
+                    -webkit-background-size:40px 80px; background-size:40px 80px;
+                    -webkit-transition-property:-webkit-transform;
+                    -webkit-transition-duration:250ms;
+                    -webkit-transform:rotate(0deg) translateZ(0);
+                }
+            }
+            #pullUp{
+                .pullUpIcon  {
+                    display:block; float:left;
+                    width:40px; height:40px;
+                    background:url(pull-icon@2x.png) 0 0 no-repeat;
+                    -webkit-background-size:40px 80px; background-size:40px 80px;
+                    -webkit-transition-property:-webkit-transform;
+                    -webkit-transition-duration:250ms;
+                    -webkit-transform:rotate(-180deg) translateZ(0);
+                }
+            }
+            #pullDown.flip{
+                .pullDownIcon {
+                    -webkit-transform:rotate(-180deg) translateZ(0);
+                }
+            } 
+            #pullUp.flip{
+                .pullUpIcon {
+                    -webkit-transform:rotate(0deg) translateZ(0);
+                }
+            } 
+            #pullDown.loading .pullDownIcon, #pullUp.loading .pullUpIcon {
+                background-position:0 100%;
+                -webkit-transform:rotate(0deg) translateZ(0);
+                -webkit-transition-duration:0ms;
+    
+                -webkit-animation-name:loading;
+                -webkit-animation-duration:2s;
+                -webkit-animation-iteration-count:infinite;
+                -webkit-animation-timing-function:linear;
+            }*/ 
+    }
+    .find > div .fi_ScrollBox {
+      position: relative;
+      top: 0;
+      left: 0; }
+      .find > div .fi_ScrollBox .fi_lunbo_box {
+        width: 10.8rem;
+        height: 3.6rem; }
+        .find > div .fi_ScrollBox .fi_lunbo_box .fi_lunbo_slides {
+          width: 75.6rem;
+          height: 100%; }
+          .find > div .fi_ScrollBox .fi_lunbo_box .fi_lunbo_slides .fi_lunbo_slide {
+            width: 10.8rem;
+            height: 100%; }
+            .find > div .fi_ScrollBox .fi_lunbo_box .fi_lunbo_slides .fi_lunbo_slide img {
+              display: block;
+              width: 10.8rem;
+              height: 3.6rem; }
+        .find > div .fi_ScrollBox .fi_lunbo_box .fiSwiper-pagination {
+          bottom: 0; }
+          .find > div .fi_ScrollBox .fi_lunbo_box .fiSwiper-pagination span {
+            width: .28rem;
+            height: .08rem;
+            background: #fff;
+            border-radius: 0; }
+      .find > div .fi_ScrollBox .fi_nav {
+        width: 10.8rem;
+        height: 4.84rem;
+        background: #fff;
+        border-bottom: 1px solid #e9e9e9;
+        margin-bottom: .26rem; }
+        .find > div .fi_ScrollBox .fi_nav ul {
+          width: 10.8rem;
+          height: 4.84rem; }
+          .find > div .fi_ScrollBox .fi_nav ul li {
+            width: 2.16rem;
+            height: 2.42rem;
+            float: left; }
+            .find > div .fi_ScrollBox .fi_nav ul li div {
+              width: 100%;
+              height: 1.54rem;
+              display: -webkit-box;
+              display: -webkit-flex;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-align: end;
+              -webkit-align-items: flex-end;
+                  -ms-flex-align: end;
+                      align-items: flex-end; }
+              .find > div .fi_ScrollBox .fi_nav ul li div img {
+                display: block;
+                width: 100%;
+                height: 1.3rem; }
+            .find > div .fi_ScrollBox .fi_nav ul li span {
+              display: block;
+              width: 100%;
+              height: .87rem;
+              font-size: .28rem;
+              line-height: .87rem;
+              text-align: center; }
+      .find > div .fi_ScrollBox .fi_doubleEPurchase {
+        width: 10.8rem;
+        height: 5.07rem;
+        background: #fff;
+        border-bottom: 1px solid #e9e9e9;
+        margin-bottom: .26rem; }
+        .find > div .fi_ScrollBox .fi_doubleEPurchase > p {
+          width: 100%;
+          height: 1.31rem;
+          line-height: 1.31rem;
+          font-size: .36rem;
+          padding-left: .42rem;
+          box-sizing: border-box;
+          font-weight: 900;
+          margin: 0; }
+        .find > div .fi_ScrollBox .fi_doubleEPurchase .fi_purchaseBox {
+          width: 10.8rem;
+          height: 3.76rem;
+          position: relative;
+          z-index: 1;
+          overflow: scroll; }
+          .find > div .fi_ScrollBox .fi_doubleEPurchase .fi_purchaseBox::-webkit-scrollbar {
+            display: none; }
+          .find > div .fi_ScrollBox .fi_doubleEPurchase .fi_purchaseBox ul {
+            width: 32rem;
+            padding-right: .4rem;
+            height: 100%; }
+            .find > div .fi_ScrollBox .fi_doubleEPurchase .fi_purchaseBox ul li {
+              float: left;
+              width: 4rem;
+              height: 100%;
+              padding-left: .4rem;
+              box-sizing: border-box; }
+              .find > div .fi_ScrollBox .fi_doubleEPurchase .fi_purchaseBox ul li img {
+                height: 2rem;
+                width: 3.58rem;
+                border: 1px solid #e9e9e9;
+                border-radius: 5px; }
+              .find > div .fi_ScrollBox .fi_doubleEPurchase .fi_purchaseBox ul li span {
+                display: block;
+                width: 100%;
+                font-weight: 900; }
+              .find > div .fi_ScrollBox .fi_doubleEPurchase .fi_purchaseBox ul li span:nth-of-type(1) {
+                height: .74rem;
+                line-height: .74rem;
+                margin-top: .15rem;
+                font-size: .38rem; }
+              .find > div .fi_ScrollBox .fi_doubleEPurchase .fi_purchaseBox ul li span:nth-of-type(2) {
+                height: .47rem;
+                line-height: .47rem;
+                font-size: .25rem;
+                color: #FF5C0D; }
+      .find > div .fi_ScrollBox .fi_ad {
+        width: 100%;
+        height: 2.16rem;
+        border-bottom: 1px solid #e9e9e9;
+        margin-bottom: .26rem;
+        background: url(../img/find-pic19.png) no-repeat center;
+        background-size: 100% 100%; }
+      .find > div .fi_ScrollBox .fi_ad1 {
+        background-image: url(../img/find-pic19.png); }
+      .find > div .fi_ScrollBox .fi_timePurchase {
+        width: 100%;
+        height: 4.97rem;
+        background: #fff;
+        border-bottom: 1px solid #e9e9e9;
+        margin-bottom: .26rem; }
+        .find > div .fi_ScrollBox .fi_timePurchase .fi_setTimeout {
+          width: 100%;
+          height: 1.3rem;
+          position: relative;
+          left: 0;
+          top: 0; }
+          .find > div .fi_ScrollBox .fi_timePurchase .fi_setTimeout > p {
+            width: 100%;
+            height: 1.3rem;
+            line-height: 1.3rem;
+            font-size: .38rem;
+            padding-left: .42rem;
+            box-sizing: border-box;
+            font-weight: 900; }
+          .find > div .fi_ScrollBox .fi_timePurchase .fi_setTimeout > h6 {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            width: 4.04rem;
+            height: 100%;
+            font-size: .28rem;
+            line-height: 1.3rem;
+            position: absolute;
+            top: 0;
+            right: 0;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            margin: 0; }
+            .find > div .fi_ScrollBox .fi_timePurchase .fi_setTimeout > h6 i {
+              display: inline-block;
+              width: .53rem;
+              height: .53rem;
+              line-height: .53rem;
+              background: #333333;
+              color: #fff;
+              font-size: .24rem;
+              text-align: center;
+              border-radius: 3px;
+              margin: 0 .1rem; }
+        .find > div .fi_ScrollBox .fi_timePurchase .fi_PurchaseGoods {
+          width: 100%;
+          height: 3.67rem;
+          overflow: scroll; }
+          .find > div .fi_ScrollBox .fi_timePurchase .fi_PurchaseGoods::-webkit-scrollbar {
+            display: none; }
+          .find > div .fi_ScrollBox .fi_timePurchase .fi_PurchaseGoods ul {
+            width: 21.4rem;
+            height: 100%;
+            padding-left: .4rem; }
+            .find > div .fi_ScrollBox .fi_timePurchase .fi_PurchaseGoods ul li {
+              width: 3.5rem;
+              height: 100%;
+              padding-right: .26rem;
+              box-sizing: border-box;
+              float: left; }
+              .find > div .fi_ScrollBox .fi_timePurchase .fi_PurchaseGoods ul li img {
+                width: 3.22rem;
+                height: 3.22rem;
+                border: 1px solid #EDEDED;
+                border-radius: 5px; }
+      .find > div .fi_ScrollBox .fi_serviceArea {
+        width: 100%;
+        height: 10.36rem;
+        background: #fff;
+        border-bottom: 1px solid #e9e9e9;
+        margin-bottom: .26rem; }
+        .find > div .fi_ScrollBox .fi_serviceArea > p {
+          width: 100%;
+          padding-left: .4rem;
+          box-sizing: border-box;
+          height: 1.3rem;
+          line-height: 1.3rem;
+          margin: 0;
+          font-size: .38rem;
+          font-weight: 900; }
+        .find > div .fi_ScrollBox .fi_serviceArea ul {
+          width: 100%;
+          height: 9.06rem; }
+          .find > div .fi_ScrollBox .fi_serviceArea ul li {
+            float: left;
+            width: 5.37rem;
+            height: 3rem;
+            border-top: 1px solid #EAEAEA;
+            border-bottom: 1px solid #EAEAEA; }
+            .find > div .fi_ScrollBox .fi_serviceArea ul li img {
+              width: 100%;
+              height: 100%; }
+          .find > div .fi_ScrollBox .fi_serviceArea ul li:nth-child(2n) {
+            border-left: 1px solid #EAEAEA; }
+      .find > div .fi_ScrollBox .fi_ad2 {
+        background-image: url(../img/find-pic6.jpg); }
+      .find > div .fi_ScrollBox .fi_Shop {
+        width: 100%;
+        height: 17.58rem;
+        background: #fff;
+        border-bottom: 1px solid #e9e9e9;
+        margin-bottom: .26rem; }
+        .find > div .fi_ScrollBox .fi_Shop > p {
+          width: 100%;
+          height: 1.5rem;
+          line-height: 1.5rem;
+          padding-left: .42rem;
+          box-sizing: border-box;
+          margin: 0;
+          font-size: .42rem;
+          font-weight: 900; }
+        .find > div .fi_ScrollBox .fi_Shop ul {
+          width: 100%;
+          height: 16.08rem;
+          overflow: hidden; }
+          .find > div .fi_ScrollBox .fi_Shop ul li {
+            width: 5.4rem;
+            padding: 0 .46rem;
+            height: 8.04rem;
+            border-top: 1px solid #e9e9e9;
+            float: left;
+            box-sizing: border-box;
+            position: relative;
+            left: 0;
+            top: 0; }
+            .find > div .fi_ScrollBox .fi_Shop ul li img {
+              width: 100%;
+              height: 3.84rem; }
+            .find > div .fi_ScrollBox .fi_Shop ul li h3 {
+              width: 100%;
+              line-height: .83rem;
+              font-size: .42rem;
+              font-weight: 900;
+              white-space: pre-wrap; }
+            .find > div .fi_ScrollBox .fi_Shop ul li h4 {
+              width: 100%;
+              height: 1.2rem;
+              line-height: .6rem;
+              font-size: .32rem;
+              color: #999999; }
+            .find > div .fi_ScrollBox .fi_Shop ul li h5 {
+              width: 100%;
+              height: 1.23rem;
+              /*line-height:1.23rem;*/
+              position: absolute;
+              left: .46rem;
+              bottom: .12rem; }
+              .find > div .fi_ScrollBox .fi_Shop ul li h5 span {
+                color: #FF651A;
+                font-size: .36rem;
+                font-weight: 900; }
+              .find > div .fi_ScrollBox .fi_Shop ul li h5 del {
+                font-size: .24rem;
+                color: #999999; }
+          .find > div .fi_ScrollBox .fi_Shop ul li:nth-child(2n) {
+            border-left: 1px solid #e9e9e9; }
+      .find > div .fi_ScrollBox .fi_goodsListBox {
+        width: 100%;
+        height: auto;
+        background: #fff;
+        overlow-y: scroll; }
+        .find > div .fi_ScrollBox .fi_goodsListBox > p {
+          width: 100%;
+          height: 1.5rem;
+          line-height: 1.5rem;
+          font-size: .42rem;
+          font-weight: 900;
+          padding-left: .33rem;
+          box-sizing: border-box;
+          border-top: 1px solid #e9e9e9;
+          border-bottom: 1px solid #e9e9e9; }
+        .find > div .fi_ScrollBox .fi_goodsListBox .fi_goodsList {
+          width: 100%;
+          height: auto; }
+          .find > div .fi_ScrollBox .fi_goodsListBox .fi_goodsList ul {
+            width: 100%;
+            height: auto; }
+            .find > div .fi_ScrollBox .fi_goodsListBox .fi_goodsList ul li {
+              width: 100%;
+              height: 3.52rem;
+              border-bottom: 1px solid #e9e9e9; }
+              .find > div .fi_ScrollBox .fi_goodsListBox .fi_goodsList ul li > span {
+                width: 3.6rem;
+                height: 100%;
+                float: left;
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-pack: center;
+                -webkit-justify-content: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
+                -webkit-box-align: center;
+                -webkit-align-items: center;
+                    -ms-flex-align: center;
+                        align-items: center; }
+                .find > div .fi_ScrollBox .fi_goodsListBox .fi_goodsList ul li > span img {
+                  width: 3.2rem;
+                  height: 1.8rem; }
+              .find > div .fi_ScrollBox .fi_goodsListBox .fi_goodsList ul li div {
+                float: right;
+                width: 7.04rem;
+                height: 100%;
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -webkit-flex-direction: column;
+                    -ms-flex-direction: column;
+                        flex-direction: column;
+                -webkit-box-pack: center;
+                -webkit-justify-content: center;
+                    -ms-flex-pack: center;
+                        justify-content: center; }
+                .find > div .fi_ScrollBox .fi_goodsListBox .fi_goodsList ul li div h1 {
+                  width: 100%;
+                  height: .88rem;
+                  line-height: .88rem;
+                  font-size: .42rem;
+                  font-weight: 900; }
+                .find > div .fi_ScrollBox .fi_goodsListBox .fi_goodsList ul li div h2 {
+                  width: 100%;
+                  height: .77rem;
+                  line-height: .77rem;
+                  font-size: .38rem;
+                  font-weight: 900; }
+                .find > div .fi_ScrollBox .fi_goodsListBox .fi_goodsList ul li div h3 {
+                  width: 100%;
+                  height: .7rem;
+                  line-height: .7rem;
+                  font-size: .32rem;
+                  color: #999999;
+                  font-weight: 900; }
+                .find > div .fi_ScrollBox .fi_goodsListBox .fi_goodsList ul li div h4 {
+                  width: 100%;
+                  height: .78rem;
+                  line-height: .78rem;
+                  font-weight: 900;
+                  font-size: .36rem; }
+                  .find > div .fi_ScrollBox .fi_goodsListBox .fi_goodsList ul li div h4 span {
+                    color: #FF651A; }
+                  .find > div .fi_ScrollBox .fi_goodsListBox .fi_goodsList ul li div h4 del {
+                    color: #999999;
+                    font-size: .28rem;
+                    font-weight: 100; }
+    .find > div .fi_top {
+      width: 1.32rem;
+      height: 1.32rem;
+      border: 1px solid #E5E5E5;
+      background: rgba(255, 255, 255, 0.6);
+      border-radius: 100%;
+      position: fixed;
+      right: .3rem;
+      bottom: 1.7rem;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .find > div .fi_top span {
+        width: .56rem;
+        height: .58rem;
+        line-height: .6rem;
+        text-align: center;
+        font-size: .4rem;
+        color: #666666; }
+      .find > div .fi_top i {
+        width: .7rem;
+        height: .38rem;
+        line-height: .38rem;
+        text-align: center;
+        font-size: .26rem;
+        color: #727272; }
+
+/*# sourceMappingURL=find.css.map */

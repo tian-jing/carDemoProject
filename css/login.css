@@ -1,0 +1,55 @@
+.login .header {
+  border: 0;
+  line-height: 1.2rem;
+  height: 5.76rem;
+  background: url(../img/register_02.png) 0 bottom no-repeat, -webkit-gradient(linear, 0 0, 0 100%, from(#349FD4), to(#349FD4)); }
+  .login .header .lo-header-i {
+    margin-left: .4rem;
+    color: white;
+    font-size: .5rem; }
+  .login .header > h4 {
+    color: white;
+    text-align: center;
+    line-height: 4rem;
+    font-weight: 100; }
+.login .container {
+  box-sizing: border-box;
+  padding: 0 .8rem;
+  position: relative; }
+  .login .container form {
+    margin-top: .5rem;
+    overflow: hidden; }
+    .login .container form > input {
+      width: 100%;
+      height: .94rem;
+      border: 0;
+      border-bottom: solid 1px #c8c8c8;
+      background: white;
+      margin-top: .6rem; }
+    .login .container form > button {
+      width: 100%;
+      height: 1.2rem;
+      background: #8db4ff;
+      margin-top: 1.06rem;
+      color: white;
+      border: 0;
+      border-radius: .2rem;
+      font-size: .36rem; }
+    .login .container form > p {
+      margin-top: .44rem; }
+      .login .container form > p > a {
+        font-size: .3rem;
+        color: #979797; }
+      .login .container form > p > a:nth-of-type(1) {
+        float: left; }
+      .login .container form > p > a:nth-of-type(2) {
+        float: right; }
+  .login .container .link {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 1.36rem;
+    display: flex;
+    justify-content: space-around; }
+
+/*# sourceMappingURL=login.css.map */
